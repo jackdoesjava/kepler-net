@@ -1,0 +1,19 @@
+# Data (Strictly ignored)
+data/
+
+# Environments & Secrets
+.env
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Experiment Tracking
+wandb/
+outputs/
+multirun/
