@@ -1,0 +1,16 @@
+[project]
+name = "kepler-net"
+version = "0.1.0"
+description = "High-performance time-series classification engine for exoplanet transit detection."
+requires-python = ">=3.10"
+dependencies = [
+    "lightkurve",
+    "polars",
+    "pyarrow", 
+    "numpy",           
+    "torch",           
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

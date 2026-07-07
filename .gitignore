@@ -1,17 +1,18 @@
-# Data (Strictly ignored)
-data/
+# Data (Strictly ignored at the root only)
+/data/
 
 # Environments & Secrets
 .env
 .venv/
 env/
 
-# Python Cache
+# Python Cache & Build Artifacts
 __pycache__/
 *.pyc
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+*.egg-info/
 
 # Experiment Tracking
 wandb/
