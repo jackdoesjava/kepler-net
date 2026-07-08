@@ -1,5 +1,8 @@
-# Data (Strictly ignored at the root only)
-/data/
+# Data and Logs
+data/raw/
+data/processed/
+outputs/
+wandb/
 
 # Environments & Secrets
 .env
@@ -18,3 +21,6 @@ __pycache__/
 wandb/
 outputs/
 multirun/
+
+# OS Files
+.DS_Store

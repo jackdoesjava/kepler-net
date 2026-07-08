@@ -1,0 +1,10 @@
+# configs/config.yaml
+
+defaults:
+  - dataset: kepler
+  - model: base_cnn
+  - _self_
+
+project_name: kepler-net
+max_epochs: 10
+seed: 42

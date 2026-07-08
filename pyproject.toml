@@ -8,7 +8,12 @@ dependencies = [
     "polars",
     "pyarrow", 
     "numpy",           
-    "torch",           
+    "torch",     
+    "wandb",       
+    "scikit-learn",  
+    "hydra-core",    
+    "matplotlib",
+    "seaborn",
 ]
 
 [build-system]

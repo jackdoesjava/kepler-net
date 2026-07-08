@@ -1,0 +1,14 @@
+# configs/dataset/kepler.yaml
+
+name: kepler_mission_data
+raw_data_dir: data/raw
+processed_data_dir: data/processed
+
+# Tensor dimensions (must match what preprocess.py outputs)
+num_global_bins: 2001
+num_local_bins: 201
+
+# DataLoader settings
+batch_size: 64
+num_workers: 4
+pin_memory: true

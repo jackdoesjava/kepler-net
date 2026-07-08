@@ -1,0 +1,6 @@
+# configs/model/base_cnn.yaml
+
+name: dual_branch_cnn
+learning_rate: 0.001
+global_length: 2001
+local_length: 201
